@@ -151,7 +151,7 @@ function HeroSection() {
 							{heroSectionData.map((el, id) => (
 								<React.Fragment key={id}>
 									<div className="mb-4">
-										<h3 className="text-bold text-xl text-white baseline mb-2">
+										<h3 className="text-bold text-xl text-white baseline cursor-pointer mb-2 hover:text-yellow-700">
 											{el.title}
 										</h3>
 										<span className="text-md text-gray-400">{el.desc}</span>
